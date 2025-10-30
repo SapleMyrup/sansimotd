@@ -1,0 +1,3 @@
+80 columns
+need pv and iconv
+place ansi in /ansiart
