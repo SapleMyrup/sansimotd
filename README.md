@@ -2,6 +2,8 @@
 
 Scrolling MOTD delivers classic ANSI art as a streaming login banner. The main `scrolling-motd.sh` script picks a random art file, converts it from DOS codepage 437 to UTF-8, and throttles output so the art appears to scroll instead of dumping instantly. It is safe for PuTTY, respects tmux panes, and can draw inside any terminal that understands ANSI escape sequences.
 
+![Scrolling MOTD demo](sd.gif)
+
 ## Features
 - Streams ANSI or ANS art at 80 columns with optional tmux pop-up support.
 - Converts legacy codepage 437 art to UTF-8 on the fly via `iconv`.
